@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Your Full Name">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Pancakes Recipe</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Natalia Glushak">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banana Pancakes Recipe</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color:#fff8dc; font-family: Arial, sans-serif; color: #333; padding: 20px;">
+<body>
 
-    <h1>Banana Pancakes Recipe</h1>
-    <h2>Fluffy Banana Pancakes</h2>
-    <p>Recipe by: AllRecipes.com</p>
+  <h1>Banana Pancakes Recipe</h1>
+  <h2>Fluffy Banana Pancakes</h2>
+  <p>Recipe by: AllRecipes.com</p>
 
-    <figure>
-        <img src="images/banana-pancakes.png" alt="Stack of banana pancakes with syrup and butter" height="250">
-        <figcaption>Image courtesy of Creative Commons via Google Images</figcaption>
-    </figure>
+  <figure>
+    <img src="images/banana-pancakes.png" alt="Stack of banana pancakes with syrup and banana slices">
+    <figcaption>Image courtesy of Creative Commons via Google Images</figcaption>
+  </figure>
 
-    <h3>Ingredients</h3>
-    <ul>
-        <li>1 cup all-purpose flour</li>
-        <li>1 tablespoon sugar</li>
-        <li>2 teaspoons baking powder</li>
-        <li>1/4 teaspoon salt</li>
-        <li>1 egg</li>
-        <li>1 cup milk</li>
-        <li>2 ripe bananas, mashed</li>
-        <li>2 tablespoons melted butter</li>
-    </ul>
+  <h3>Ingredients</h3>
+  <ul>
+    <li>1 cup all-purpose flour</li>
+    <li>1 tablespoon sugar</li>
+    <li>2 teaspoons baking powder</li>
+    <li>1/4 teaspoon salt</li>
+    <li>1 egg</li>
+    <li>1 cup milk</li>
+    <li>2 tablespoons vegetable oil</li>
+    <li>1 ripe banana, mashed</li>
+  </ul>
 
-    <h3>Equipment</h3>
-    <ul>
-        <li>Mixing bowl</li>
-        <li>Whisk</li>
-        <li>Non-stick skillet or griddle</li>
-        <li>Spatula</li>
-    </ul>
+  <!--
+  <h3>Equipment</h3>
+  <ul>
+    <li>small saucepan</li>
+    <li>tablespoon</li>
+    <li>fork</li>
+    <li>knife</li>
+    <li>platter</li>
+  </ul>
+  -->
 
-    <h3>Directions</h3>
-    <ol>
-        <li>In a bowl, mix flour, sugar, baking powder, and salt.</li>
-        <li>In another bowl, beat the egg with milk, then stir in mashed bananas and melted butter.</li>
-        <li>Combine wet and dry ingredients until just blended.</li>
-        <li>Heat a lightly oiled skillet over medium-high heat.</li>
-        <li>Pour 1/4 cup of batter onto the skillet for each pancake.</li>
-        <li>Cook until bubbles form on the surface; flip and cook until golden brown.</li>
-        <li>Serve warm with maple syrup or toppings of your choice.</li>
-    </ol>
+  <h3 class="rate">Rate This Recipe</h3>
+  <fieldset style="width: 250px;">
+    <legend>How difficult is this recipe?</legend>
+    <input type="radio" id="easy" name="difficulty"> Easy
+    <input type="radio" id="med" name="difficulty"> Intermediate
+    <input type="radio" id="hard" name="difficulty"> Hard
+  </fieldset>
 
-    <hr>
-    <p style="font-size: small; color: #666;">This page created as academic activity only.</p>
+  <p>&nbsp;</p>
+
+  <h3>Conversion</h3>
+  <input type="text" id="tblspn" name="tblspn">
+  =
+  <input type="text" id="cups" name="cups">
 
 </body>
 </html>
